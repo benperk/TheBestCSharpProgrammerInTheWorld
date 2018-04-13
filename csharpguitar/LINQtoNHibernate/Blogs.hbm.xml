@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="NHPosts">
+  <class name="NHPosts.Blogs, NHPosts" table="Blogs">
+    <id name="Id" column="Id" type="int">
+      <generator class="hilo" />
+    </id>
+    <property name="Title" type="string" />
+    <property name="Subtitle" type="string" />
+    <property name="AllowsComments" type="bool" />
+    <property name="CreatedAt" type="datetime" />
+  </class>
+</hibernate-mapping>

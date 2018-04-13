@@ -15,6 +15,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenericsList", "GenericsLis
 		GenericsList\GenericsList.cs = GenericsList\GenericsList.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQtoNHibernate", "LINQtoNHibernate", "{25F42EFF-679F-4E2F-8D04-F60A2242BBD3}"
+	ProjectSection(SolutionItems) = preProject
+		LINQtoNHibernate\Blogs.cs = LINQtoNHibernate\Blogs.cs
+		LINQtoNHibernate\Blogs.hbm.xml = LINQtoNHibernate\Blogs.hbm.xml
+		LINQtoNHibernate\Posts.cs = LINQtoNHibernate\Posts.cs
+		LINQtoNHibernate\Posts.hbm.xml = LINQtoNHibernate\Posts.hbm.xml
+		LINQtoNHibernate\Web.config = LINQtoNHibernate\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{A99286A5-2E90-4B73-9948-D5173552310C}"
+	ProjectSection(SolutionItems) = preProject
+		LINQtoNHibernate\Controllers\HomeController.cs = LINQtoNHibernate\Controllers\HomeController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{6D8A2CB1-E6D1-47A5-A89F-F74FFD969264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{109327C6-81F1-463F-9F70-7C9EF556D9DA}"
+	ProjectSection(SolutionItems) = preProject
+		LINQtoNHibernate\Views\Home\Index.aspx = LINQtoNHibernate\Views\Home\Index.aspx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ODPNET", "ODPNET", "{6C684A1B-3876-442B-8DA2-EE9830BA5526}"
+	ProjectSection(SolutionItems) = preProject
+		ODPNET\Program.cs = ODPNET\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{86B20D9D-B562-4AF2-973C-B40404AD5B3E}"
+	ProjectSection(SolutionItems) = preProject
+		Arrays\arrays.cs = Arrays\arrays.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +59,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A99286A5-2E90-4B73-9948-D5173552310C} = {25F42EFF-679F-4E2F-8D04-F60A2242BBD3}
+		{6D8A2CB1-E6D1-47A5-A89F-F74FFD969264} = {25F42EFF-679F-4E2F-8D04-F60A2242BBD3}
+		{109327C6-81F1-463F-9F70-7C9EF556D9DA} = {6D8A2CB1-E6D1-47A5-A89F-F74FFD969264}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E46D5C1-1E6E-4866-87AE-D2DB42AF1EB5}
