@@ -73,6 +73,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SilverlightDataGrid", "Silv
 		SilverlightDataGrid\MainPage.xaml.cs = SilverlightDataGrid\MainPage.xaml.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHA512hasher", "SHA512hasher", "{3279C345-CEF2-4F2F-893E-701F0B61E130}"
+	ProjectSection(SolutionItems) = preProject
+		SHA512hasher\SHA512hasher.cs = SHA512hasher\SHA512hasher.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
