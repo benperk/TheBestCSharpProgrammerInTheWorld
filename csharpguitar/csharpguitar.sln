@@ -46,6 +46,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{86B20D
 		Arrays\arrays.cs = Arrays\arrays.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListAddRange", "ListAddRange", "{E75FC2B3-0312-4B74-9081-6ED6CF054F6C}"
+	ProjectSection(SolutionItems) = preProject
+		ListAddRange\ListAddRange.cs = ListAddRange\ListAddRange.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQReflection", "LINQReflection", "{749A2B38-97AC-488E-A2ED-98326D4128FA}"
+	ProjectSection(SolutionItems) = preProject
+		LINQReflection\Program.cs = LINQReflection\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLFormatter", "SQLFormatter", "{539ED4B2-2DF9-4931-95C1-F77EA340C973}"
+	ProjectSection(SolutionItems) = preProject
+		SQLFormatter\Default.aspx = SQLFormatter\Default.aspx
+		SQLFormatter\Default.aspx.cs = SQLFormatter\Default.aspx.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conditions", "Conditions", "{B86A34CF-B888-49AB-A1CE-F4C1E807B200}"
+	ProjectSection(SolutionItems) = preProject
+		Conditions\Conditions.cs = Conditions\Conditions.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SilverlightDataGrid", "SilverlightDataGrid", "{4A9A772A-6B1F-4045-9714-42472F34B62A}"
+	ProjectSection(SolutionItems) = preProject
+		SilverlightDataGrid\MainPage.xaml = SilverlightDataGrid\MainPage.xaml
+		SilverlightDataGrid\MainPage.xaml.cs = SilverlightDataGrid\MainPage.xaml.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
