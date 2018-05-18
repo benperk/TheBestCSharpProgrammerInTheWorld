@@ -78,6 +78,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHA512hasher", "SHA512hashe
 		SHA512hasher\SHA512hasher.cs = SHA512hasher\SHA512hasher.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{86BBE759-787F-4E4C-B0A5-F0BA9F0BDF21}"
+	ProjectSection(SolutionItems) = preProject
+		Interface\Account.cs = Interface\Account.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
