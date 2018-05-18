@@ -83,6 +83,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{
 		Interface\Account.cs = Interface\Account.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2X", "L2X", "{1FE56442-F7CD-4975-B290-9F644AF6AAB3}"
+	ProjectSection(SolutionItems) = preProject
+		L2X\L2X.cs = L2X\L2X.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReflectionOrderBy", "ReflectionOrderBy", "{DCC4EDEA-CD29-43B7-866C-772FBAEDF13E}"
+	ProjectSection(SolutionItems) = preProject
+		ReflectionOrderBy\ReflectionOrderBy.cs = ReflectionOrderBy\ReflectionOrderBy.cs
+		ReflectionOrderBy\SimpleClass.dll = ReflectionOrderBy\SimpleClass.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQtoReflection2", "LINQtoReflection2", "{C8A71155-BDFF-4E27-BA2C-85B05078AFF2}"
+	ProjectSection(SolutionItems) = preProject
+		LINQtoReflection2\Program.cs = LINQtoReflection2\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFResize", "WPFResize", "{572DE5D9-40E1-469B-8E7B-B080B5728F7D}"
+	ProjectSection(SolutionItems) = preProject
+		WPFResize\MainWindow.xaml = WPFResize\MainWindow.xaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
