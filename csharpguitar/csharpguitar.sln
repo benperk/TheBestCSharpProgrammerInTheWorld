@@ -104,6 +104,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFResize", "WPFResize", "{
 		WPFResize\MainWindow.xaml = WPFResize\MainWindow.xaml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Culture", "Culture", "{08F089B2-3D40-45E9-9226-45692EE2674F}"
+	ProjectSection(SolutionItems) = preProject
+		Culture\default.aspx = Culture\default.aspx
+		Culture\default.aspx.cs = Culture\default.aspx.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
