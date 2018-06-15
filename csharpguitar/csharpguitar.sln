@@ -110,6 +110,57 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Culture", "Culture", "{08F0
 		Culture\default.aspx.cs = Culture\default.aspx.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadConfig", "ReadConfig", "{49FFB47C-B8CB-4263-AC4A-7B30C759BE55}"
+	ProjectSection(SolutionItems) = preProject
+		ReadConfig\Program.cs = ReadConfig\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFResize2", "WPFResize2", "{C16D75FE-3504-4745-943B-C316F81E33D0}"
+	ProjectSection(SolutionItems) = preProject
+		WPFResize2\MainWindow.xaml = WPFResize2\MainWindow.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalizeASP", "LocalizeASP", "{90CE6967-D766-4907-83B5-CF7F2D914447}"
+	ProjectSection(SolutionItems) = preProject
+		LocalizeASP\LocalizeASP.aspx = LocalizeASP\LocalizeASP.aspx
+		LocalizeASP\LocalizeASP.aspx.cs = LocalizeASP\LocalizeASP.aspx.cs
+		LocalizeASP\web.config = LocalizeASP\web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_LocalResources", "App_LocalResources", "{E8B566F1-8AA5-4AFB-BADD-D8EF63A61A63}"
+	ProjectSection(SolutionItems) = preProject
+		LocalizeASP\App_LocalResources\LocalizeASP.aspx.de-DE.resx = LocalizeASP\App_LocalResources\LocalizeASP.aspx.de-DE.resx
+		LocalizeASP\App_LocalResources\LocalizeASP.aspx.en-US.resx = LocalizeASP\App_LocalResources\LocalizeASP.aspx.en-US.resx
+		LocalizeASP\App_LocalResources\LocalizeASP.aspx.resx = LocalizeASP\App_LocalResources\LocalizeASP.aspx.resx
+		LocalizeASP\App_LocalResources\LocalizeASP.aspx.zh-CN.resx = LocalizeASP\App_LocalResources\LocalizeASP.aspx.zh-CN.resx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalizeWPF", "LocalizeWPF", "{1B1D8FB4-24FC-4FFD-A624-1D12B2E5E3FD}"
+	ProjectSection(SolutionItems) = preProject
+		LocalizeWPF\App.config = LocalizeWPF\App.config
+		LocalizeWPF\App.xaml = LocalizeWPF\App.xaml
+		LocalizeWPF\App.xaml.cs = LocalizeWPF\App.xaml.cs
+		LocalizeWPF\ExpressionDark.xaml = LocalizeWPF\ExpressionDark.xaml
+		LocalizeWPF\LocalizedWPF.csproj = LocalizeWPF\LocalizedWPF.csproj
+		LocalizeWPF\MainWindow.xaml = LocalizeWPF\MainWindow.xaml
+		LocalizeWPF\MainWindow.xaml.cs = LocalizeWPF\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{B9DB4786-DF5B-4B77-AB5A-814D451C652C}"
+	ProjectSection(SolutionItems) = preProject
+		LocalizeWPF\Properties\AssemblyInfo.cs = LocalizeWPF\Properties\AssemblyInfo.cs
+		LocalizeWPF\Properties\Resources.de-DE.Designer.cs = LocalizeWPF\Properties\Resources.de-DE.Designer.cs
+		LocalizeWPF\Properties\Resources.de-DE.resx = LocalizeWPF\Properties\Resources.de-DE.resx
+		LocalizeWPF\Properties\Resources.Designer.cs = LocalizeWPF\Properties\Resources.Designer.cs
+		LocalizeWPF\Properties\Resources.en-US.Designer.cs = LocalizeWPF\Properties\Resources.en-US.Designer.cs
+		LocalizeWPF\Properties\Resources.en-US.resx = LocalizeWPF\Properties\Resources.en-US.resx
+		LocalizeWPF\Properties\Resources.resx = LocalizeWPF\Properties\Resources.resx
+		LocalizeWPF\Properties\Resources.zh-CN.Designer.cs = LocalizeWPF\Properties\Resources.zh-CN.Designer.cs
+		LocalizeWPF\Properties\Resources.zh-CN.resx = LocalizeWPF\Properties\Resources.zh-CN.resx
+		LocalizeWPF\Properties\Settings.Designer.cs = LocalizeWPF\Properties\Settings.Designer.cs
+		LocalizeWPF\Properties\Settings.settings = LocalizeWPF\Properties\Settings.settings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +179,8 @@ Global
 		{A99286A5-2E90-4B73-9948-D5173552310C} = {25F42EFF-679F-4E2F-8D04-F60A2242BBD3}
 		{6D8A2CB1-E6D1-47A5-A89F-F74FFD969264} = {25F42EFF-679F-4E2F-8D04-F60A2242BBD3}
 		{109327C6-81F1-463F-9F70-7C9EF556D9DA} = {6D8A2CB1-E6D1-47A5-A89F-F74FFD969264}
+		{E8B566F1-8AA5-4AFB-BADD-D8EF63A61A63} = {90CE6967-D766-4907-83B5-CF7F2D914447}
+		{B9DB4786-DF5B-4B77-AB5A-814D451C652C} = {1B1D8FB4-24FC-4FFD-A624-1D12B2E5E3FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E46D5C1-1E6E-4866-87AE-D2DB42AF1EB5}

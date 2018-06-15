@@ -1,0 +1,16 @@
+﻿<Window x:Class="LocalizedWPF.MainWindow" Background="Black"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:properties="clr-namespace:LocalizedWPF.Properties"
+        ResizeMode="NoResize"
+        Title="{x:Static properties:Resources.WindowTitle}" Height="225" Width="325" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="{x:Static properties:Resources.LabelFirstName}" Height="28" HorizontalAlignment="Left" Margin="33,29,0,0" Name="labelFName" VerticalAlignment="Top" />
+        <Label Content="{x:Static properties:Resources.LabelLastName}" Height="28" HorizontalAlignment="Left" Margin="34,65,0,0" Name="labelLName" VerticalAlignment="Top" />
+        <Label Content="{x:Static properties:Resources.LabelAddress}" Height="28" HorizontalAlignment="Left" Margin="35,103,0,0" Name="labelAddress" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,26,0,0" Name="textBoxFName" VerticalAlignment="Top" Width="152" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,63,0,0" Name="textBoxLName" VerticalAlignment="Top" Width="152" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="119,100,0,0" Name="textBoxAddress" VerticalAlignment="Top" Width="152" />
+        <Button Content="{x:Static properties:Resources.ButtonSubmit}" Height="23" HorizontalAlignment="Left" Margin="177,155,0,0" Name="buttonSubmit" VerticalAlignment="Top" Width="94" />
+    </Grid>
+</Window>
