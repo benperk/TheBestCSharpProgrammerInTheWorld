@@ -1,0 +1,8 @@
+﻿<Window x:Class="ComboBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ComboBox Height="23" SelectionChanged="comboBox1_SelectionChanged" HorizontalAlignment="Left" Margin="102,86,0,0" Name="comboBox1" VerticalAlignment="Top" Width="241" />
+    </Grid>
+</Window>

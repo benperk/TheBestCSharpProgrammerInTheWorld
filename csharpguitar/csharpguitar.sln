@@ -161,6 +161,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", 
 		LocalizeWPF\Properties\Settings.settings = LocalizeWPF\Properties\Settings.settings
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringStringBuilder", "StringStringBuilder", "{D54B6498-B65A-41B4-85EF-ABDE0FF61570}"
+	ProjectSection(SolutionItems) = preProject
+		StringStringBuilder\StringStringBuilder.cs = StringStringBuilder\StringStringBuilder.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ComboxKeyValue", "ComboxKeyValue", "{114F3D41-BA5D-43A5-B489-F103E0572AC4}"
+	ProjectSection(SolutionItems) = preProject
+		ComboxKeyValue\ComboBoxPairs.cs = ComboxKeyValue\ComboBoxPairs.cs
+		ComboxKeyValue\MainWindow.xaml = ComboxKeyValue\MainWindow.xaml
+		ComboxKeyValue\MainWindow.xaml.cs = ComboxKeyValue\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{65171AA7-F8A3-4766-93BA-B1E9242B94D6}"
+	ProjectSection(SolutionItems) = preProject
+		Dynamic\Program.cs = Dynamic\Program.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
