@@ -178,6 +178,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{6517
 		Dynamic\Program.cs = Dynamic\Program.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PieChart", "PieChart", "{5D5C1E63-1082-4B87-92AE-9FC21CCB45E2}"
+	ProjectSection(SolutionItems) = preProject
+		PieChart\Default.aspx = PieChart\Default.aspx
+		PieChart\Default.aspx.cs = PieChart\Default.aspx.cs
+		PieChart\Web.config = PieChart\Web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConvertSilverlighttoWPF", "ConvertSilverlighttoWPF", "{12A6335A-D67E-4323-836F-28AF934B47CC}"
+	ProjectSection(SolutionItems) = preProject
+		ConvertSilverlighttoWPF\MainWindow.xaml = ConvertSilverlighttoWPF\MainWindow.xaml
+		ConvertSilverlighttoWPF\MainWindow.xaml.cs = ConvertSilverlighttoWPF\MainWindow.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ForeachIteration", "ForeachIteration", "{8B55B368-DE86-4FC8-B94B-614F73C43DC8}"
+	ProjectSection(SolutionItems) = preProject
+		ForeachIteration\ForeachIteration.cs = ForeachIteration\ForeachIteration.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
