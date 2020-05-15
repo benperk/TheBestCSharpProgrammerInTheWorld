@@ -1,0 +1,9 @@
+﻿<Window x:Class="ProgressBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ProgressBar" Height="105" Width="445" Background="Black" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Start" Height="23" Click="buttonStart_Click"  HorizontalAlignment="Right" Margin="0,15,15,0" Name="buttonStart" VerticalAlignment="Top" Width="75" />
+        <StatusBar Name="StatusBar1" VerticalAlignment="Bottom" Background="Black" Margin="0,0,0,0" />
+    </Grid>
+</Window>
