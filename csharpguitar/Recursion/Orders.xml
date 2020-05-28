@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<container name="Orders">
+  <property name="Number" />
+  <property name="Date" />
+  <property name="Amount" />
+  <container name="Customer">
+    <property name="Id" />
+    <property name="Name" />
+    <property name="Address" />
+  </container>
+  <container name="Company">
+    <property name="Id" />
+    <property name="Name" />
+    <property name="Address" />
+  </container>
+  <container name="Product">
+    <property name="Description" />
+    <property name="Refresh Stock" />
+    <property name="QOH" />
+    <attribute id="Shelf Life" />
+  </container>
+  <container name="Billing">
+    <property name="Cash" />
+    <property name="Check" />
+    <property name="Credit Card" />
+    <container name="Billing Address">
+      <property name="Street" />
+      <property name="City" />
+      <property name="Zip" />
+      <attribute id="Country" />
+    </container>
+  </container>
+  <container name="Customer Survey">
+    <property name="Priority" />
+    <property name="Response Time" />
+    <property name="Satisfaction" />
+  </container>
+  <container name="Delivery Type">
+    <property name="Air" />
+    <property name="Land" />
+    <property name="Sea" />
+  </container>
+  <attribute id="Current Date" />
+  <attribute id="Order Date" />
+  <attribute id="Ship Date" />
+</container>
