@@ -1,0 +1,10 @@
+﻿<Window x:Class="TextBoxEnter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Text Box Enter" Height="151" Width="327">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="28,34,0,0" Name="textBox1" VerticalAlignment="Top" Width="132" KeyDown="textBox1_KeyDown" />
+        <Label Content="You entered: " Height="28" HorizontalAlignment="Left" Margin="28,74,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Enter some text and press the enter key" Height="28" HorizontalAlignment="Left" Margin="28,0,0,0" Name="label2" VerticalAlignment="Top" />
+    </Grid>
+</Window>
