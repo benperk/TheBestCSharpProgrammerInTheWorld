@@ -1,0 +1,11 @@
+﻿<Window x:Class="MaskedTextBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:wpfForm="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen"
+        Title="MaskedTextBox" Height="167" Width="308">
+    <Grid>
+        <WindowsFormsHost Height="24" HorizontalAlignment="Left" Margin="23,16,0,0" Name="windowsFormsHost1" VerticalAlignment="Top" Width="70">
+            <wpfForm:MaskedTextBox x:Name="maskedTextBoxDate" Mask="€999.999,00" />
+        </WindowsFormsHost>
+    </Grid>
+</Window>
