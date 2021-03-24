@@ -2,6 +2,8 @@ using System;
 using System.Text;
 using static System.Console;
 
+using System.Collections.Generic;
+
 namespace HexToBinaryToText
 {
     class Program
@@ -23,10 +25,17 @@ namespace HexToBinaryToText
                 location = location + 2;
             }
             StringBuilder sbBinary = new StringBuilder();
+            StringBuilder sbBinaryZero = new StringBuilder();
+            var list = new List<Byte>();
             for (int i = 0; i < hexArray.Length; i++)
             {
                 sbBinary.Append(Convert.ToString(Convert.ToInt32(hexArray[i], 16), 2)); //base 16 , 2 hex chars per ASCII character
+                var bit = "0" + Convert.ToString(Convert.ToInt32(hexArray[i], 16), 2);
+                sbBinaryZero.Append("0" + Convert.ToString(Convert.ToInt32(hexArray[i], 16), 2));
+                list.Add(Convert.ToByte(bit, 2));
             }
+            var text = Encoding.ASCII.GetString(list.ToArray());
+
             StringBuilder sbASCII = new StringBuilder();
             for (int i = 0; i < hexArray.Length; i++)
             {
@@ -36,10 +45,19 @@ namespace HexToBinaryToText
             }
             WriteLine($"The HEX value of {hexValue}");
             WriteLine();
-            WriteLine($"Has a '7-bit' binary value of {sbBinary.ToString()}");
             WriteLine();
-            WriteLine($"And has a character value of:");
-            WriteLine(sbASCII.ToString());
+            WriteLine($"Has a '7-bit' binary value of {sbBinary}");
+            WriteLine();
+            WriteLine();
+            WriteLine($"Has an '8-bit' binary value of {sbBinaryZero}");
+            WriteLine();
+            WriteLine();
+            WriteLine($"And has a '7-bit' character value of:");
+            WriteLine(sbASCII);
+            WriteLine();
+            WriteLine();
+            WriteLine($"And has an '8-bit' character value of:");
+            WriteLine(text);
             ReadLine();
         }
     }
