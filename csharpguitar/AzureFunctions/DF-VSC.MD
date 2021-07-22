@@ -23,10 +23,16 @@
     - [Functions with Logic Apps](https://docs.microsoft.com/en-us/azure/azure-functions/functions-twitter-email), [Handling errors](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#handling-errors), [try/catch block](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#use-structured-error-handling), [Retry policies](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#retry-policies-preview), [Cancellation Token](https://github.com/Azure/azure-functions-host/issues/6195)
 - Debugging / Testing / Performance
   - [Strategies for testing your code in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-test-a-function), [Blob Python Out of memory exception](https://github.com/Azure/azure-functions-host/issues/6237), [Check your Application setting](https://www.thebestcsharpprogrammerintheworld.com/2021/07/22/validating-azure-function-application-setting-configuration-fail-to-trigger/), [Timeout](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale#timeout), [Manually Trigger a Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-manually-run-non-http) - you can manually run a TimerTrigger on the Code + Test / Test/Run blade for the Function in the Azure Portal. [Troubleshoot Python errors in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/recover-python-functions?tabs=vscode), ex: ModuleNotFoundError, [Debug PowerShell Azure Functions locally](https://docs.microsoft.com/en-us/azure/azure-functions/functions-debug-powershell-local)
-
-
-
-
-
+- Deployment
+  - [Visual Studio Code Azure Deployment Overview](https://code.visualstudio.com/docs/azure/deployment), [CI/CD setup with the Deploy to Azure extension](https://docs.microsoft.com/azure/devops/pipelines/targets/deploy-to-azure-vscode), [Deploy Azure Functions from Visual Studio Code](https://docs.microsoft.com/azure/javascript/tutorial-vscode-serverless-node-01), [Deploy using Docker](https://docs.microsoft.com/azure/javascript/tutorial-vscode-docker-node-01), [Deploy using the Azure CLI](https://docs.microsoft.com/azure/javascript/tutorial-vscode-azure-cli-node-01)
+  - Python - [Deploy Python Function App to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python#publish-the-project-to-azure)
+  - PowerShell - [Deploy PowerShell Function App to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-powershell#publish-the-project-to-azure) 
+  - Node.js / JavaScript - [Deploy JavaScript Function App to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node#deploy-the-project-to-azure)
+  - Module Not Found, Dependencies and Versioning
+    - Python [Requirements.txt](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=azurecli-linux%2Capplication-level#package-management)
+    - PowerShell [Requirements.psd1](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-powershell?tabs=portal#dependency-management)
+    - Must know about [Remote vs. Local build](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=azurecli-linux%2Capplication-level#remote-build)
+  - Your local network and any network restriction on Azure can impact and/or prevent deployments
+    - 
 
 
