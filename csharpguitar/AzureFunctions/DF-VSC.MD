@@ -33,6 +33,4 @@
     - PowerShell [Requirements.psd1](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-powershell?tabs=portal#dependency-management)
     - Must know about [Remote vs. Local build](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=azurecli-linux%2Capplication-level#remote-build)
   - Your local network and any network restriction on Azure can impact and/or prevent deployments
-    - 
-
-
+    - [Frequently asked questions about networking in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-networking-faq)
