@@ -19,7 +19,14 @@
   - Security and Authentication
     - [Overview](https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts), [Access user identities](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-user-identities?toc=/azure/azure-functions/toc.json), [Best practices](https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts), [Azure Active Directory and Azure Functions](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad?toc=/azure/azure-functions/toc.json), [Tokens](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-oauth-tokens?toc=/azure/azure-functions/toc.json), [File-based authentication](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-file-based?toc=/azure/azure-functions/toc.json), [Certificate Authentication](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code) - applies to Azure Functions, [Reference Azure Key Vault](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?toc=/azure/azure-functions/toc.json), [Managed Identity](https://docs.microsoft.com/en-us/azure/app-service/overview-managed-identity?toc=%2Fazure%2Fazure-functions%2Ftoc.json&tabs=dotnet), [Encryption](https://docs.microsoft.com/en-us/azure/azure-functions/configure-encrypt-at-rest-using-cmk)
     - HTTP Basic Authentication is **NOT SUPPORTED**, review [Secure an HTTP endpoint in production](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp#secure-an-http-endpoint-in-production)
-  -  Azure Samples
-    - [Functions with Logic Apps](https://docs.microsoft.com/en-us/azure/azure-functions/functions-twitter-email)  
-  - Error handling and Retry
-    - [Handling errors](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#handling-errors), [try/catch block](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#use-structured-error-handling), [Retry policies](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#retry-policies-preview)
+  - Gerneral 
+    - [Functions with Logic Apps](https://docs.microsoft.com/en-us/azure/azure-functions/functions-twitter-email), [Handling errors](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#handling-errors), [try/catch block](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#use-structured-error-handling), [Retry policies](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=csharp#retry-policies-preview), [Cancellation Token](https://github.com/Azure/azure-functions-host/issues/6195)
+- Debugging / Testing / Performance
+  - [Strategies for testing your code in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-test-a-function) 
+
+
+
+
+
+
+
