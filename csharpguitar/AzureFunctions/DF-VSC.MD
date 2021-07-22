@@ -9,10 +9,14 @@
     - Azure, Visual Studio Code and Azure Functions
       - The Visual Studio Code Azure Function development experience is realized using [the Azure Functions extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 - Development
+  - [Azure Functions developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference)
+  - [Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=azurecli-linux%2Capplication-level)
+  - [Azure Functions PowerShell developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-powershell?tabs=portal)
+  - [Azure Functions JavaScript developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node?tabs=v2)
   - Development in the Azure Portal is **NOT SUPPORTED** in the following scenarios
     - Editing functions in the Azure portal is not supported for Linux Consumption Function Apps.
-    -  Your app is currently in read only mode because you are running from a package file. To make any changes update the content in your zip file and WEBSITE_RUN_FROM_PACKAGE app setting.
-  -  Security and Authentication
+    -  Your app is currently in read only mode because you are running from a package file. To make any changes update the content in your zip file and [WEBSITE_RUN_FROM_PACKAGE](https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package) app setting.
+  - Security and Authentication
     - [Overview](https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts), [Access user identities](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-user-identities?toc=/azure/azure-functions/toc.json), [Best practices](https://docs.microsoft.com/en-us/azure/azure-functions/security-concepts), [Azure Active Directory and Azure Functions](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad?toc=/azure/azure-functions/toc.json), [Tokens](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-oauth-tokens?toc=/azure/azure-functions/toc.json), [File-based authentication](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-file-based?toc=/azure/azure-functions/toc.json), [Certificate Authentication](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate-in-code) - applies to Azure Functions, [Reference Azure Key Vault](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?toc=/azure/azure-functions/toc.json), [Managed Identity](https://docs.microsoft.com/en-us/azure/app-service/overview-managed-identity?toc=%2Fazure%2Fazure-functions%2Ftoc.json&tabs=dotnet), [Encryption](https://docs.microsoft.com/en-us/azure/azure-functions/configure-encrypt-at-rest-using-cmk)
     - HTTP Basic Authentication is **NOT SUPPORTED**, review [Secure an HTTP endpoint in production](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp#secure-an-http-endpoint-in-production)
   -  Azure Samples
