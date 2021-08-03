@@ -7,7 +7,7 @@
     - .NET, cross-platform and open source
       - [.NET ](https://dotnet.microsoft.com/download), [.NET on GitHub](https://github.com/microsoft/dotnet), [.NET known issues](https://github.com/dotnet/core/issues), [.NET Framework source code](https://referencesource.microsoft.com/), [.NET Support Policy](https://dotnet.microsoft.com/platform/support/policy)
     - Azure, Visual Studio and Azure Functions
-      - [Azure Developmet with VIsual Studio](https://docs.microsoft.com/en-us/visualstudio/azure), [Develop Azure Functions using Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs), [Benefits](https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure) with using Visual Studio with Azure 
+      - [Azure Developmet with VIsual Studio](https://docs.microsoft.com/en-us/visualstudio/azure), [Develop Azure Functions using Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs), the [benefits](https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure) of using Visual Studio with Azure 
 - Development
   - [Azure Functions developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference)
   - [Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=azurecli-linux%2Capplication-level)
