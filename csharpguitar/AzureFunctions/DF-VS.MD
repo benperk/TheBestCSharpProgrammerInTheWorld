@@ -33,5 +33,5 @@
     - [Frequently asked questions about networking in Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-networking-faq)
 - Remote Debugging
   - [Remote Debugging Apps](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio#remotedebug) - applies to Dedicated Function Apps
-  - Remote debugging is not supported in the following scenarios
+  - Remote debugging is **NOT SUPPORTED** in the following scenarios
     - When running on [PremiumV2](https://azure.github.io/AppService/2020/03/23/PremiumV2-support-for-older-deployments.html) hardware, when using Visual Studio 2015 which is no longer [supported](https://github.com/Azure/app-service-announcements/issues/205), when running in Consumption plan, when not using C#
