@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<system.applicationHost>
+		<sites>
+			<site name="csharpguitar" id="1016213342">
+				<application path="/" applicationPool="csharpguitar">
+					<virtualDirectory path="/brainjammer" physicalPath="D:\mounts\brainjammer" xdt:Transform="Insert" />
+				</application>
+			</site>
+			<!-- <site name="csharpguitar">
+				<application path="/brainjammer" applicationPool="csharpguitar" xdt:Transform="Insert">
+					<virtualDirectory path="/" physicalPath="D:\mounts\brainjammer" xdt:Transform="Insert" />
+				</application>
+			</site>-->
+		</sites>
+	</system.applicationHost>
+</configuration>
