@@ -2,8 +2,8 @@
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
 	<system.applicationHost>
 		<sites>
-			<site name="csharpguitar" id="1016213342">
-				<application path="/" applicationPool="csharpguitar">
+			<site name="%WEBSITE_SITE_NAME%" id="%INSTANCE_ID%">
+				<application path="/" applicationPool="%WEBSITE_DEPLOYMENT_ID%">
 					<virtualDirectory path="/brainjammer" physicalPath="D:\mounts\brainjammer" xdt:Transform="Insert" />
 				</application>
 			</site>
