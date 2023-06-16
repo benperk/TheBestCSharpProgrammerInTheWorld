@@ -19,9 +19,10 @@ Here you will find related documentation concerning the Health Check feature.  T
 ## Health check -> Environment variables and app settings in Azure App Service
 Read about environment variables WEBSITE_HEALTHCHECK_MAXPINGFAILURES and WEBSITE_HEALTHCHECK_MAXUNHEALTHYWORKERPERCENT [here](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings?#health-check) which can be used to modify the behavior of the Health Check service.
 ## What App Service does with Health checks
-https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?#what-app-service-does-with-health-checks
+Health Check in Azure pings a specified path on App Service instances every minute. Unhealthy instances, failing to respond with 200-299 status codes after 10 requests, are removed. Continual monitoring occurs, and if an instance recovers, it is reintegrated. If an instance remains unhealthy for an hour, it is replaced. Scaling and redirects have specific considerations.  Read more [here](https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?#what-app-service-does-with-health-checks).
 ## Health Check FAQs
-https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?#frequently-asked-questions
+Read the Health Check FAQs [here](https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?#frequently-asked-questions) to get answers to the most frequently asked questions concerning Health Check.  For example, What happens if my app is running on a single instance? or Are the Health check requests sent over HTTP or HTTPS?
+
 ## Most common reasons for Health Check not replacing an unhealthy instance
 -	Health Check will only replace instances up to the percentage specified on the WEBSITE_HEALTHCHECK_MAXUNHEALTHYWORKERPERCENT app setting (50% by default). 
 For more information: [What if all my instances are unhealthy?](https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?tabs=dotnet#what-if-all-my-instances-are-unhealthy)
