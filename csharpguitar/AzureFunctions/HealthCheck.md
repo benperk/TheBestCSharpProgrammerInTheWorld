@@ -15,9 +15,9 @@
 # Azure App Service : Health Check related failure
 Here you will find related documentation concerning the Health Check feature.  There also exists documentation concerning common Health Check behaviours with associated explainations, configuration recommendations and known issues.
 ## Monitor App Service instances using Health check
-https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check
-## Health check ->Environment variables and app settings in Azure App Service
-https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings?#health-check
+[This](https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check) article discusses how Health Check in the Azure portal can monitor App Service instances, increasing application availability by redirecting requests from unhealthy instances and replacing them if needed. By pinging a chosen path in your web application every minute, Health Check ensures proactive monitoring and enhances performance and resilience.  Topics include What App Service does with Health checks, Enable Health check, Configuration, Authentication and security, Instances, Diagnostic information collection, Monitoring, Limitations, and Frequently Asked Questions
+## Health check -> Environment variables and app settings in Azure App Service
+Read about environment variables WEBSITE_HEALTHCHECK_MAXPINGFAILURES and WEBSITE_HEALTHCHECK_MAXUNHEALTHYWORKERPERCENT [here](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings?#health-check) which can be used to modify the behavior of the Health Check service.
 ## What App Service does with Health checks
 https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check?#what-app-service-does-with-health-checks
 ## Health Check FAQs
